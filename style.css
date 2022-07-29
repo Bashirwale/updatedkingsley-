@@ -115,7 +115,7 @@ nav .fa-times {
   grid-template-columns: repeat(12, 1fr);
   width: 80%;
   margin: 0 auto;
-  gap: 50px;
+  column-gap: 50px;
 }
 .main .card {
   margin-bottom: 67px;
@@ -293,6 +293,9 @@ footer .conct {
   .contact {
     text-align: left;
   }
+  .main {
+    column-gap: 20px;
+  }
 }
 @media (max-width: 728px) {
   .fa-times {
@@ -300,16 +303,16 @@ footer .conct {
     right: 35px;
     font-size: 40px;
   }
-  .card .imgcont img {
-    height: 60%;
-    width: 50%;
-  }
+
   .heading h1 {
     font-size: 70px;
     line-height: 60px;
   }
+  img {
+    height: 50%;
+  }
   .main {
-    row-gap: 10px;
+    row-gap: 20px;
   }
   .main .card {
     grid-column: span 12;
